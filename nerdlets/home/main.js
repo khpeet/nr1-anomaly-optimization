@@ -21,8 +21,6 @@ export default class Main extends React.Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  //get threhsold and current nrql query - populate initial threshold textbox/state  //  plot nrql query in timeseries for actual signal
-
   async componentDidMount() {
     let { account } = this.props;
 
