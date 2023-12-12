@@ -3,6 +3,12 @@
 ## Usage
 This application allows to analyze, tune, and improve baseline alert conditions configured across various accounts.
 
+
+## Features
+ - Selected condition std deviation thresholds are fetched/pre-populated
+ - Selected condition nrql query is fetched + populated into a timeseries chart to compare with deviation behavior
+ - In-app context for how to interpret/use data to tune conditions.
+
 ## Screenshots
 ![Overview](screenshots/overview.png)
 
